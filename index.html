@@ -8,9 +8,9 @@
 <body>
     <script>
         function isValidPassword (password) {
-            return password.includes ("\xc2\xa0") ? true:false;
+            return password.includes (" ") ? false:true;
         };
-        console.log (isValidPassword("hello hello"));
+        console.log (isValidPassword("hello"));
         
     </script>
 </body>
