@@ -3,7 +3,7 @@ function isValidPassword (password) {
     if (password.includes (" ")) {
         return false;
     }
-     else if (username.includes(password)){
+     else if (password.includes(username)){
         return false;
     }
     else if (password.length < 8) {
