@@ -1,12 +1,11 @@
-// let username = katt;
+let username = "lilla";
 function isValidPassword (password) {
     if (password.includes (" ")) {
         return false;
     }
-    /* else if ((username).test(password))
-    {
+     else if (username.includes(password)){
         return false;
-    } */
+    }
     else if (password.length < 8) {
         return false;
     }
@@ -16,5 +15,5 @@ function isValidPassword (password) {
             return true;
         }
     };
-    //Enter password here
-    console.log (isValidPassword("hello12"));
+    //Enter password under 
+    console.log (isValidPassword("hellolilla123"));
